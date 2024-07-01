@@ -23,7 +23,7 @@ function studentGradeGenerator(marks) {
         grade = 'D';
         break;
         case marks < 40:
-        grade = 'D';
+        grade = 'E';
         break;
       default:
         grade = 'Enter valid marks';
