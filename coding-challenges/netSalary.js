@@ -107,4 +107,4 @@ nHIF = calculateNHIF(grossPay); // call function to get nhif deductions
 
 netSalary = grossPay - paye - nHIF; // calculate the net salary
 
-console.log(netSalary);
+console.log(`Gross Pay: ${grossPay}\n Net Salary: ${netSalary}\n`);
